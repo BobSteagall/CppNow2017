@@ -1,0 +1,1 @@
+This is repo for my C++Now 2017 talk entitled "Testing the Limits of Allocator Awareness."  I will add the source code when I return home from the conference.
