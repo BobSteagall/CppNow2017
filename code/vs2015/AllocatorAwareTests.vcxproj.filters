@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="01 Addressing Models">
+      <UniqueIdentifier>{f1486a23-b100-42d1-86a4-3e486e076efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Storage Models">
+      <UniqueIdentifier>{00de8902-0ed5-4112-9600-68b824d0ec5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03 Pointer Interfaces">
+      <UniqueIdentifier>{e7564dd1-f9a7-4f62-9654-edc1b5c4e13e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Allocation Strategies">
+      <UniqueIdentifier>{7c66457e-64d3-4c74-86a3-58b226b1800e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 Allocators">
+      <UniqueIdentifier>{9a2b0d53-576f-499c-92f4-91c2cdbfa62c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06 Tests">
+      <UniqueIdentifier>{a6c11b9b-e376-47b2-a6eb-a995690650fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\test\container_tests.h">
+      <Filter>06 Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test\container_unordered_map_tests.h">
+      <Filter>06 Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test\container_vector_tests.h">
+      <Filter>06 Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test\pointer_cast_tests.h">
+      <Filter>06 Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test\pointer_copy_tests.h">
+      <Filter>06 Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test\pointer_sort_tests.h">
+      <Filter>06 Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test\pointer_stable_sort_tests.h">
+      <Filter>06 Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test\pointer_tests.h">
+      <Filter>06 Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test\common.h">
+      <Filter>06 Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test\container_deque_tests.h">
+      <Filter>06 Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test\container_fwdlist_tests.h">
+      <Filter>06 Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test\container_list_tests.h">
+      <Filter>06 Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test\container_map_tests.h">
+      <Filter>06 Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\offset_addressing.h">
+      <Filter>01 Addressing Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wrapper_addressing.h">
+      <Filter>01 Addressing Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\based_1d_addressing.h">
+      <Filter>01 Addressing Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\based_2d_addressing.h">
+      <Filter>01 Addressing Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\based_2dxl_addressing.h">
+      <Filter>01 Addressing Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test\stopwatch.h">
+      <Filter>06 Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\leaky_allocation_strategy.h">
+      <Filter>04 Allocation Strategies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\synthetic_pointer.h">
+      <Filter>03 Pointer Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wrapper_storage.h">
+      <Filter>02 Storage Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\based_1d_storage.h">
+      <Filter>02 Storage Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\based_2d_storage.h">
+      <Filter>02 Storage Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\based_2dxl_storage.h">
+      <Filter>02 Storage Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\offset_storage.h">
+      <Filter>02 Storage Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\storage_base.h">
+      <Filter>02 Storage Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\poc_allocator.h">
+      <Filter>05 Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rhx_allocator.h">
+      <Filter>05 Allocators</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\based_2d_storage.cpp">
+      <Filter>02 Storage Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\based_2dxl_storage.cpp">
+      <Filter>02 Storage Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\offset_storage.cpp">
+      <Filter>02 Storage Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\storage_base.cpp">
+      <Filter>02 Storage Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\wrapper_storage.cpp">
+      <Filter>02 Storage Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\based_1d_storage.cpp">
+      <Filter>02 Storage Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\leaky_allocation_strategy.cpp">
+      <Filter>04 Allocation Strategies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\container_tests.cpp">
+      <Filter>06 Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\container_unordered_map_tests.cpp">
+      <Filter>06 Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\container_vector_tests.cpp">
+      <Filter>06 Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\main.cpp">
+      <Filter>06 Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\pointer_tests.cpp">
+      <Filter>06 Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\common.cpp">
+      <Filter>06 Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\container_deque_tests.cpp">
+      <Filter>06 Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\container_fwdlist_tests.cpp">
+      <Filter>06 Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\container_list_tests.cpp">
+      <Filter>06 Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\container_map_tests.cpp">
+      <Filter>06 Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

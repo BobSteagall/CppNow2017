@@ -1,0 +1,6 @@
+*.bak
+code/.idea/
+code/vs2015/.vs/
+code/vs2015/x64/
+code/vs2017/.vs/
+code/vs2017/x64/

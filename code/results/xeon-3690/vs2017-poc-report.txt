@@ -1,0 +1,735 @@
+================================================================
+Running basic operation tests for wrapper_strategy
+Using container std::deque
+*************************
+*****  TEST DEQUE  ******
+this is very long test string #162 created especially for deque<string>
+this is very long test string #163 created especially for deque<string>
+this is very long test string #164 created especially for deque<string>
+this is very long test string #165 created especially for deque<string>
+this is very long test string #166 created especially for deque<string>
+this is very long test string #167 created especially for deque<string>
+this is very long test string #168 created especially for deque<string>
+this is very long test string #169 created especially for deque<string>
+this is very long test string #170 created especially for deque<string>
+this is very long test string #171 created especially for deque<string>
+this is very long test string #172 created especially for deque<string>
+
+================================================================
+Running basic operation tests for based_2d_strategy
+Using container std::deque
+*************************
+*****  TEST DEQUE  ******
+this is very long test string #162 created especially for deque<string>
+this is very long test string #163 created especially for deque<string>
+this is very long test string #164 created especially for deque<string>
+this is very long test string #165 created especially for deque<string>
+this is very long test string #166 created especially for deque<string>
+this is very long test string #167 created especially for deque<string>
+this is very long test string #168 created especially for deque<string>
+this is very long test string #169 created especially for deque<string>
+this is very long test string #170 created especially for deque<string>
+this is very long test string #171 created especially for deque<string>
+this is very long test string #172 created especially for deque<string>
+
+================================================================
+Running relocation tests for based_2d_strategy
+Using container std::deque
+
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+================================================================
+Running basic operation tests for wrapper_strategy
+Using container std::forward_list
+*******************************
+*****  TEST FOWARD_LIST  ******
+this is very long test string #1691 created especially for forward_list<string>
+this is very long test string #1690 created especially for forward_list<string>
+this is very long test string #1689 created especially for forward_list<string>
+this is very long test string #1688 created especially for forward_list<string>
+this is very long test string #1687 created especially for forward_list<string>
+this is very long test string #1686 created especially for forward_list<string>
+this is very long test string #1685 created especially for forward_list<string>
+this is very long test string #1684 created especially for forward_list<string>
+this is very long test string #1683 created especially for forward_list<string>
+this is very long test string #1682 created especially for forward_list<string>
+this is very long test string #1681 created especially for forward_list<string>
+
+================================================================
+Running basic operation tests for based_2d_strategy
+Using container std::forward_list
+*******************************
+*****  TEST FOWARD_LIST  ******
+this is very long test string #1691 created especially for forward_list<string>
+this is very long test string #1690 created especially for forward_list<string>
+this is very long test string #1689 created especially for forward_list<string>
+this is very long test string #1688 created especially for forward_list<string>
+this is very long test string #1687 created especially for forward_list<string>
+this is very long test string #1686 created especially for forward_list<string>
+this is very long test string #1685 created especially for forward_list<string>
+this is very long test string #1684 created especially for forward_list<string>
+this is very long test string #1683 created especially for forward_list<string>
+this is very long test string #1682 created especially for forward_list<string>
+this is very long test string #1681 created especially for forward_list<string>
+
+================================================================
+Running relocation tests for based_2d_strategy
+Using container std::forward_list
+
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+================================================================
+Running basic operation tests for wrapper_strategy
+Using container std::list
+************************
+*****  TEST LIST  ******
+this is very long test string #107 created especially for list<string>
+this is very long test string #108 created especially for list<string>
+this is very long test string #109 created especially for list<string>
+this is very long test string #110 created especially for list<string>
+this is very long test string #111 created especially for list<string>
+this is very long test string #112 created especially for list<string>
+this is very long test string #113 created especially for list<string>
+this is very long test string #114 created especially for list<string>
+this is very long test string #115 created especially for list<string>
+this is very long test string #116 created especially for list<string>
+this is very long test string #117 created especially for list<string>
+
+Done.
+================================================================
+Running basic operation tests for based_2d_strategy
+Using container std::list
+************************
+*****  TEST LIST  ******
+this is very long test string #107 created especially for list<string>
+this is very long test string #108 created especially for list<string>
+this is very long test string #109 created especially for list<string>
+this is very long test string #110 created especially for list<string>
+this is very long test string #111 created especially for list<string>
+this is very long test string #112 created especially for list<string>
+this is very long test string #113 created especially for list<string>
+this is very long test string #114 created especially for list<string>
+this is very long test string #115 created especially for list<string>
+this is very long test string #116 created especially for list<string>
+this is very long test string #117 created especially for list<string>
+
+Done.
+================================================================
+Running relocation tests for based_2d_strategy
+Using container std::list
+
+Done.
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+================================================================
+Running basic operation tests for wrapper_strategy
+Using container std::vector
+**************************
+*****  TEST VECTOR  ******
+this is very long test string #1729 created especially for vector<string>
+this is very long test string #1730 created especially for vector<string>
+this is very long test string #1731 created especially for vector<string>
+this is very long test string #1732 created especially for vector<string>
+this is very long test string #1733 created especially for vector<string>
+this is very long test string #1734 created especially for vector<string>
+this is very long test string #1735 created especially for vector<string>
+this is very long test string #1736 created especially for vector<string>
+this is very long test string #1737 created especially for vector<string>
+this is very long test string #1738 created especially for vector<string>
+this is very long test string #1739 created especially for vector<string>
+
+================================================================
+Running basic operation tests for based_2d_strategy
+Using container std::vector
+**************************
+*****  TEST VECTOR  ******
+this is very long test string #1729 created especially for vector<string>
+this is very long test string #1730 created especially for vector<string>
+this is very long test string #1731 created especially for vector<string>
+this is very long test string #1732 created especially for vector<string>
+this is very long test string #1733 created especially for vector<string>
+this is very long test string #1734 created especially for vector<string>
+this is very long test string #1735 created especially for vector<string>
+this is very long test string #1736 created especially for vector<string>
+this is very long test string #1737 created especially for vector<string>
+this is very long test string #1738 created especially for vector<string>
+this is very long test string #1739 created especially for vector<string>
+
+================================================================
+Running relocation tests for based_2d_strategy
+Using container std::vector
+
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+================================================================
+Running basic operation tests for wrapper_strategy
+Using container std::map
+***********************
+*****  TEST MAP  ******
+this is key string #961
+    this is very long value string #101 created for map<string,list<string>>
+    this is very long value string #102 created for map<string,list<string>>
+    this is very long value string #103 created for map<string,list<string>>
+    this is very long value string #104 created for map<string,list<string>>
+    this is very long value string #105 created for map<string,list<string>>
+    this is very long value string #106 created for map<string,list<string>>
+this is key string #962
+    this is very long value string #101 created for map<string,list<string>>
+    this is very long value string #102 created for map<string,list<string>>
+    this is very long value string #103 created for map<string,list<string>>
+    this is very long value string #104 created for map<string,list<string>>
+    this is very long value string #105 created for map<string,list<string>>
+    this is very long value string #106 created for map<string,list<string>>
+this is key string #963
+    this is very long value string #101 created for map<string,list<string>>
+    this is very long value string #102 created for map<string,list<string>>
+    this is very long value string #103 created for map<string,list<string>>
+    this is very long value string #104 created for map<string,list<string>>
+    this is very long value string #105 created for map<string,list<string>>
+    this is very long value string #106 created for map<string,list<string>>
+this is key string #964
+    this is very long value string #101 created for map<string,list<string>>
+    this is very long value string #102 created for map<string,list<string>>
+    this is very long value string #103 created for map<string,list<string>>
+    this is very long value string #104 created for map<string,list<string>>
+    this is very long value string #105 created for map<string,list<string>>
+    this is very long value string #106 created for map<string,list<string>>
+this is key string #965
+    this is very long value string #101 created for map<string,list<string>>
+    this is very long value string #102 created for map<string,list<string>>
+    this is very long value string #103 created for map<string,list<string>>
+    this is very long value string #104 created for map<string,list<string>>
+    this is very long value string #105 created for map<string,list<string>>
+    this is very long value string #106 created for map<string,list<string>>
+this is key string #966
+    this is very long value string #101 created for map<string,list<string>>
+    this is very long value string #102 created for map<string,list<string>>
+    this is very long value string #103 created for map<string,list<string>>
+    this is very long value string #104 created for map<string,list<string>>
+    this is very long value string #105 created for map<string,list<string>>
+    this is very long value string #106 created for map<string,list<string>>
+this is key string #967
+    this is very long value string #101 created for map<string,list<string>>
+    this is very long value string #102 created for map<string,list<string>>
+    this is very long value string #103 created for map<string,list<string>>
+    this is very long value string #104 created for map<string,list<string>>
+    this is very long value string #105 created for map<string,list<string>>
+    this is very long value string #106 created for map<string,list<string>>
+this is key string #968
+    this is very long value string #101 created for map<string,list<string>>
+    this is very long value string #102 created for map<string,list<string>>
+    this is very long value string #103 created for map<string,list<string>>
+    this is very long value string #104 created for map<string,list<string>>
+    this is very long value string #105 created for map<string,list<string>>
+    this is very long value string #106 created for map<string,list<string>>
+this is key string #969
+    this is very long value string #101 created for map<string,list<string>>
+    this is very long value string #102 created for map<string,list<string>>
+    this is very long value string #103 created for map<string,list<string>>
+    this is very long value string #104 created for map<string,list<string>>
+    this is very long value string #105 created for map<string,list<string>>
+    this is very long value string #106 created for map<string,list<string>>
+this is key string #970
+    this is very long value string #101 created for map<string,list<string>>
+    this is very long value string #102 created for map<string,list<string>>
+    this is very long value string #103 created for map<string,list<string>>
+    this is very long value string #104 created for map<string,list<string>>
+    this is very long value string #105 created for map<string,list<string>>
+    this is very long value string #106 created for map<string,list<string>>
+this is key string #971
+    this is very long value string #101 created for map<string,list<string>>
+    this is very long value string #102 created for map<string,list<string>>
+    this is very long value string #103 created for map<string,list<string>>
+    this is very long value string #104 created for map<string,list<string>>
+    this is very long value string #105 created for map<string,list<string>>
+    this is very long value string #106 created for map<string,list<string>>
+
+================================================================
+Running basic operation tests for based_2d_strategy
+Using container std::map
+***********************
+*****  TEST MAP  ******
+this is key string #961
+    this is very long value string #101 created for map<string,list<string>>
+    this is very long value string #102 created for map<string,list<string>>
+    this is very long value string #103 created for map<string,list<string>>
+    this is very long value string #104 created for map<string,list<string>>
+    this is very long value string #105 created for map<string,list<string>>
+    this is very long value string #106 created for map<string,list<string>>
+this is key string #962
+    this is very long value string #101 created for map<string,list<string>>
+    this is very long value string #102 created for map<string,list<string>>
+    this is very long value string #103 created for map<string,list<string>>
+    this is very long value string #104 created for map<string,list<string>>
+    this is very long value string #105 created for map<string,list<string>>
+    this is very long value string #106 created for map<string,list<string>>
+this is key string #963
+    this is very long value string #101 created for map<string,list<string>>
+    this is very long value string #102 created for map<string,list<string>>
+    this is very long value string #103 created for map<string,list<string>>
+    this is very long value string #104 created for map<string,list<string>>
+    this is very long value string #105 created for map<string,list<string>>
+    this is very long value string #106 created for map<string,list<string>>
+this is key string #964
+    this is very long value string #101 created for map<string,list<string>>
+    this is very long value string #102 created for map<string,list<string>>
+    this is very long value string #103 created for map<string,list<string>>
+    this is very long value string #104 created for map<string,list<string>>
+    this is very long value string #105 created for map<string,list<string>>
+    this is very long value string #106 created for map<string,list<string>>
+this is key string #965
+    this is very long value string #101 created for map<string,list<string>>
+    this is very long value string #102 created for map<string,list<string>>
+    this is very long value string #103 created for map<string,list<string>>
+    this is very long value string #104 created for map<string,list<string>>
+    this is very long value string #105 created for map<string,list<string>>
+    this is very long value string #106 created for map<string,list<string>>
+this is key string #966
+    this is very long value string #101 created for map<string,list<string>>
+    this is very long value string #102 created for map<string,list<string>>
+    this is very long value string #103 created for map<string,list<string>>
+    this is very long value string #104 created for map<string,list<string>>
+    this is very long value string #105 created for map<string,list<string>>
+    this is very long value string #106 created for map<string,list<string>>
+this is key string #967
+    this is very long value string #101 created for map<string,list<string>>
+    this is very long value string #102 created for map<string,list<string>>
+    this is very long value string #103 created for map<string,list<string>>
+    this is very long value string #104 created for map<string,list<string>>
+    this is very long value string #105 created for map<string,list<string>>
+    this is very long value string #106 created for map<string,list<string>>
+this is key string #968
+    this is very long value string #101 created for map<string,list<string>>
+    this is very long value string #102 created for map<string,list<string>>
+    this is very long value string #103 created for map<string,list<string>>
+    this is very long value string #104 created for map<string,list<string>>
+    this is very long value string #105 created for map<string,list<string>>
+    this is very long value string #106 created for map<string,list<string>>
+this is key string #969
+    this is very long value string #101 created for map<string,list<string>>
+    this is very long value string #102 created for map<string,list<string>>
+    this is very long value string #103 created for map<string,list<string>>
+    this is very long value string #104 created for map<string,list<string>>
+    this is very long value string #105 created for map<string,list<string>>
+    this is very long value string #106 created for map<string,list<string>>
+this is key string #970
+    this is very long value string #101 created for map<string,list<string>>
+    this is very long value string #102 created for map<string,list<string>>
+    this is very long value string #103 created for map<string,list<string>>
+    this is very long value string #104 created for map<string,list<string>>
+    this is very long value string #105 created for map<string,list<string>>
+    this is very long value string #106 created for map<string,list<string>>
+this is key string #971
+    this is very long value string #101 created for map<string,list<string>>
+    this is very long value string #102 created for map<string,list<string>>
+    this is very long value string #103 created for map<string,list<string>>
+    this is very long value string #104 created for map<string,list<string>>
+    this is very long value string #105 created for map<string,list<string>>
+    this is very long value string #106 created for map<string,list<string>>
+
+================================================================
+Running relocation tests for based_2d_strategy
+Using container std::map
+
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+================================================================
+Running basic operation tests for wrapper_strategy
+Using container std::unordered_map
+*********************************
+*****  TEST UNORDERED MAP  ******
+this is key string #969
+    this is very long value string #101 created for unordered_map<string,list<string>>
+    this is very long value string #102 created for unordered_map<string,list<string>>
+    this is very long value string #103 created for unordered_map<string,list<string>>
+    this is very long value string #104 created for unordered_map<string,list<string>>
+    this is very long value string #105 created for unordered_map<string,list<string>>
+    this is very long value string #106 created for unordered_map<string,list<string>>
+this is key string #961
+    this is very long value string #101 created for unordered_map<string,list<string>>
+    this is very long value string #102 created for unordered_map<string,list<string>>
+    this is very long value string #103 created for unordered_map<string,list<string>>
+    this is very long value string #104 created for unordered_map<string,list<string>>
+    this is very long value string #105 created for unordered_map<string,list<string>>
+    this is very long value string #106 created for unordered_map<string,list<string>>
+this is key string #962
+    this is very long value string #101 created for unordered_map<string,list<string>>
+    this is very long value string #102 created for unordered_map<string,list<string>>
+    this is very long value string #103 created for unordered_map<string,list<string>>
+    this is very long value string #104 created for unordered_map<string,list<string>>
+    this is very long value string #105 created for unordered_map<string,list<string>>
+    this is very long value string #106 created for unordered_map<string,list<string>>
+this is key string #963
+    this is very long value string #101 created for unordered_map<string,list<string>>
+    this is very long value string #102 created for unordered_map<string,list<string>>
+    this is very long value string #103 created for unordered_map<string,list<string>>
+    this is very long value string #104 created for unordered_map<string,list<string>>
+    this is very long value string #105 created for unordered_map<string,list<string>>
+    this is very long value string #106 created for unordered_map<string,list<string>>
+this is key string #964
+    this is very long value string #101 created for unordered_map<string,list<string>>
+    this is very long value string #102 created for unordered_map<string,list<string>>
+    this is very long value string #103 created for unordered_map<string,list<string>>
+    this is very long value string #104 created for unordered_map<string,list<string>>
+    this is very long value string #105 created for unordered_map<string,list<string>>
+    this is very long value string #106 created for unordered_map<string,list<string>>
+this is key string #965
+    this is very long value string #101 created for unordered_map<string,list<string>>
+    this is very long value string #102 created for unordered_map<string,list<string>>
+    this is very long value string #103 created for unordered_map<string,list<string>>
+    this is very long value string #104 created for unordered_map<string,list<string>>
+    this is very long value string #105 created for unordered_map<string,list<string>>
+    this is very long value string #106 created for unordered_map<string,list<string>>
+this is key string #966
+    this is very long value string #101 created for unordered_map<string,list<string>>
+    this is very long value string #102 created for unordered_map<string,list<string>>
+    this is very long value string #103 created for unordered_map<string,list<string>>
+    this is very long value string #104 created for unordered_map<string,list<string>>
+    this is very long value string #105 created for unordered_map<string,list<string>>
+    this is very long value string #106 created for unordered_map<string,list<string>>
+this is key string #967
+    this is very long value string #101 created for unordered_map<string,list<string>>
+    this is very long value string #102 created for unordered_map<string,list<string>>
+    this is very long value string #103 created for unordered_map<string,list<string>>
+    this is very long value string #104 created for unordered_map<string,list<string>>
+    this is very long value string #105 created for unordered_map<string,list<string>>
+    this is very long value string #106 created for unordered_map<string,list<string>>
+this is key string #968
+    this is very long value string #101 created for unordered_map<string,list<string>>
+    this is very long value string #102 created for unordered_map<string,list<string>>
+    this is very long value string #103 created for unordered_map<string,list<string>>
+    this is very long value string #104 created for unordered_map<string,list<string>>
+    this is very long value string #105 created for unordered_map<string,list<string>>
+    this is very long value string #106 created for unordered_map<string,list<string>>
+this is key string #970
+    this is very long value string #101 created for unordered_map<string,list<string>>
+    this is very long value string #102 created for unordered_map<string,list<string>>
+    this is very long value string #103 created for unordered_map<string,list<string>>
+    this is very long value string #104 created for unordered_map<string,list<string>>
+    this is very long value string #105 created for unordered_map<string,list<string>>
+    this is very long value string #106 created for unordered_map<string,list<string>>
+this is key string #971
+    this is very long value string #101 created for unordered_map<string,list<string>>
+    this is very long value string #102 created for unordered_map<string,list<string>>
+    this is very long value string #103 created for unordered_map<string,list<string>>
+    this is very long value string #104 created for unordered_map<string,list<string>>
+    this is very long value string #105 created for unordered_map<string,list<string>>
+    this is very long value string #106 created for unordered_map<string,list<string>>
+
+================================================================
+Running basic operation tests for based_2d_strategy
+Using container std::unordered_map
+*********************************
+*****  TEST UNORDERED MAP  ******
+this is key string #969
+    this is very long value string #101 created for unordered_map<string,list<string>>
+    this is very long value string #102 created for unordered_map<string,list<string>>
+    this is very long value string #103 created for unordered_map<string,list<string>>
+    this is very long value string #104 created for unordered_map<string,list<string>>
+    this is very long value string #105 created for unordered_map<string,list<string>>
+    this is very long value string #106 created for unordered_map<string,list<string>>
+this is key string #961
+    this is very long value string #101 created for unordered_map<string,list<string>>
+    this is very long value string #102 created for unordered_map<string,list<string>>
+    this is very long value string #103 created for unordered_map<string,list<string>>
+    this is very long value string #104 created for unordered_map<string,list<string>>
+    this is very long value string #105 created for unordered_map<string,list<string>>
+    this is very long value string #106 created for unordered_map<string,list<string>>
+this is key string #962
+    this is very long value string #101 created for unordered_map<string,list<string>>
+    this is very long value string #102 created for unordered_map<string,list<string>>
+    this is very long value string #103 created for unordered_map<string,list<string>>
+    this is very long value string #104 created for unordered_map<string,list<string>>
+    this is very long value string #105 created for unordered_map<string,list<string>>
+    this is very long value string #106 created for unordered_map<string,list<string>>
+this is key string #963
+    this is very long value string #101 created for unordered_map<string,list<string>>
+    this is very long value string #102 created for unordered_map<string,list<string>>
+    this is very long value string #103 created for unordered_map<string,list<string>>
+    this is very long value string #104 created for unordered_map<string,list<string>>
+    this is very long value string #105 created for unordered_map<string,list<string>>
+    this is very long value string #106 created for unordered_map<string,list<string>>
+this is key string #964
+    this is very long value string #101 created for unordered_map<string,list<string>>
+    this is very long value string #102 created for unordered_map<string,list<string>>
+    this is very long value string #103 created for unordered_map<string,list<string>>
+    this is very long value string #104 created for unordered_map<string,list<string>>
+    this is very long value string #105 created for unordered_map<string,list<string>>
+    this is very long value string #106 created for unordered_map<string,list<string>>
+this is key string #965
+    this is very long value string #101 created for unordered_map<string,list<string>>
+    this is very long value string #102 created for unordered_map<string,list<string>>
+    this is very long value string #103 created for unordered_map<string,list<string>>
+    this is very long value string #104 created for unordered_map<string,list<string>>
+    this is very long value string #105 created for unordered_map<string,list<string>>
+    this is very long value string #106 created for unordered_map<string,list<string>>
+this is key string #966
+    this is very long value string #101 created for unordered_map<string,list<string>>
+    this is very long value string #102 created for unordered_map<string,list<string>>
+    this is very long value string #103 created for unordered_map<string,list<string>>
+    this is very long value string #104 created for unordered_map<string,list<string>>
+    this is very long value string #105 created for unordered_map<string,list<string>>
+    this is very long value string #106 created for unordered_map<string,list<string>>
+this is key string #967
+    this is very long value string #101 created for unordered_map<string,list<string>>
+    this is very long value string #102 created for unordered_map<string,list<string>>
+    this is very long value string #103 created for unordered_map<string,list<string>>
+    this is very long value string #104 created for unordered_map<string,list<string>>
+    this is very long value string #105 created for unordered_map<string,list<string>>
+    this is very long value string #106 created for unordered_map<string,list<string>>
+this is key string #968
+    this is very long value string #101 created for unordered_map<string,list<string>>
+    this is very long value string #102 created for unordered_map<string,list<string>>
+    this is very long value string #103 created for unordered_map<string,list<string>>
+    this is very long value string #104 created for unordered_map<string,list<string>>
+    this is very long value string #105 created for unordered_map<string,list<string>>
+    this is very long value string #106 created for unordered_map<string,list<string>>
+this is key string #970
+    this is very long value string #101 created for unordered_map<string,list<string>>
+    this is very long value string #102 created for unordered_map<string,list<string>>
+    this is very long value string #103 created for unordered_map<string,list<string>>
+    this is very long value string #104 created for unordered_map<string,list<string>>
+    this is very long value string #105 created for unordered_map<string,list<string>>
+    this is very long value string #106 created for unordered_map<string,list<string>>
+this is key string #971
+    this is very long value string #101 created for unordered_map<string,list<string>>
+    this is very long value string #102 created for unordered_map<string,list<string>>
+    this is very long value string #103 created for unordered_map<string,list<string>>
+    this is very long value string #104 created for unordered_map<string,list<string>>
+    this is very long value string #105 created for unordered_map<string,list<string>>
+    this is very long value string #106 created for unordered_map<string,list<string>>
+
+================================================================
+Running relocation tests for based_2d_strategy
+Using container std::unordered_map
+
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
+Running POC tests for native pointer
+Running POC tests for synthetic pointer
