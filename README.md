@@ -33,6 +33,9 @@ $ make
 $ ./alloc [args]
 ```
 
+## Running the Batch Scripts
 
+There are several very simple scripts in the ``code`` subdirectory that I used to do batch builds (``make_for_*.sh``) and batch runs (``poc_run_for*.sh`` and ``run_for_*.sh``) of the test program. These scripts were mostly for my convenience when generating the results I used in the presentation.
 
+The batch scripts rely on the naming conventions I use when building compilers.  If you would like to build your own compilers and install them on your system so that they don't step on each other, then take a look at my compiler build scripts at [](https://gitlab.com/BobSteagall/gcc-builder "A set of scripts to automate the process of building GCC") and 
 
