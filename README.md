@@ -17,7 +17,7 @@ The terms _addressing model_, _storage model_, _pointer interface_, and _allocat
 
 ## Building the Tests
 
-On Windows, just open the appropriate Visual Studio solution file -- you should be able to immediately build and run.
+On Windows, just open the appropriate Visual Studio solution file - you should be able to immediately build and run.
 
 On Linux, you will need CMake 3.5 or higher installed. Change directory to ``code`` and run the ``do_cmake_stuff.sh`` shell script.  At that point you can ``cd`` to the appropriate subdirectory and make the tests.
 
