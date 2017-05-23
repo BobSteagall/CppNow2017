@@ -15,7 +15,6 @@ set(Sources
         include/offset_storage.h
         include/poc_allocator.h
         include/rhx_allocator.h
-        include/stopwatch.h
         include/storage_base.h
         include/synthetic_pointer.h
         include/wrapper_addressing.h
@@ -52,6 +51,7 @@ set(Sources
         test/pointer_stable_sort_tests.h
         test/pointer_tests.cpp
         test/pointer_tests.h
+        test/stopwatch.h
 )
 
 add_executable(alloc ${Sources})
