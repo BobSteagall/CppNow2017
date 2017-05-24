@@ -20,7 +20,7 @@
 //
 //  Summary:
 //      This class implements a based (base + offset) addressing model.  The offset is stored
-//      as a 64-but integer, and the base address is provided by a segment address from an 
+//      as a 64-bit integer, and the base address is provided by a segment address from an 
 //      instance of the template argument SM.
 //
 //      Note that the comparison helper functions include several that define the "greater_than"
@@ -79,7 +79,6 @@ class based_1d_addressing_model
 template<typename SM> inline
 based_1d_addressing_model<SM>::based_1d_addressing_model(std::nullptr_t) noexcept
 :   m_offset{null_offset}
-//:   m_offset{0}
 {}
 
 template<typename SM> inline
@@ -92,7 +91,6 @@ based_1d_addressing_model<SM>&
 based_1d_addressing_model<SM>::operator =(std::nullptr_t) noexcept
 {
     m_offset = null_offset;
-//    m_offset = 0;
     return *this;
 }
 
@@ -103,7 +101,6 @@ void*
 based_1d_addressing_model<SM>::address() const noexcept
 {
     return (m_offset == null_offset) ? nullptr : SM::first_segment_address() + m_offset;
-//    return SM::first_segment_address() + m_offset;
 }
 
 template<typename SM> inline

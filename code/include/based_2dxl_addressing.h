@@ -19,10 +19,8 @@
 //      based_2dxl_addressing_model
 //
 //  Summary:
-//      This class template implements a based (segment:offset) addressing model in a 64-bit
-//      integer.  The lower 48 bits represent an offset, and the upper 16 a segment index.
-//      Assigning from a pointer outside the segments assumes that the actual maximum physical
-//      address space is 48 bits or less.
+//      This class template implements a based (segment:offset) addressing model in two 64-bit
+//      integers.  One integer represents an offset, and the other represents a segment index.
 //
 //      Note that the comparison helper functions include several that define the "greater_than"
 //      relationship.  They are included because they are trivial, and make the code for any
@@ -108,8 +106,6 @@ based_2dxl_addressing_model<SM>::address() const noexcept
     return SM::segment_address(m_segment) + m_offset;
 }
 
-//------
-//
 template<typename SM> inline
 typename based_2dxl_addressing_model<SM>::size_type
 based_2dxl_addressing_model<SM>::offset() const noexcept

@@ -19,9 +19,9 @@
 //      offset_addressing_model
 //
 //  Summary:
-//      This class implements a based (base + offset) addressing model.  The offset is stored
-//      as a 64-but integer, and the base address is provided by a segment address from an 
-//      instance of the template argument SM.
+//      This class implements a simple offset addressing model, inspired by Boost.Interprocess.
+//      The offset is stored as a 64-bit integer, and the address represented by a pointer object
+//      is computed by adding the offset to the address of the pointer object itself.
 //
 //      Note that the comparison helper functions include several that define the "greater_than"
 //      relationship.  They are included because they are trivial, and make the code for any

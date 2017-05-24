@@ -10,9 +10,13 @@
 //
 #include "based_1d_storage.h"
 #include "based_2d_storage.h"
+#include "based_2dxl_storage.h"
+#include "offset_storage.h"
 #include "wrapper_storage.h"
 #include "leaky_allocation_strategy.h"
 
 template class leaky_allocation_strategy<based_1d_storage_model>;
 template class leaky_allocation_strategy<based_2d_storage_model>;
+template class leaky_allocation_strategy<based_2dxl_storage_model>;
+template class leaky_allocation_strategy<offset_storage_model>;
 template class leaky_allocation_strategy<wrapper_storage_model>;

@@ -35,6 +35,22 @@ template<class T, class U>
 using enable_if_non_void_t = 
     typename std::enable_if<!std::is_void<U>::value && std::is_same<T, U>::value, bool>::type;
 
+template<class T>
+using get_type_or_void_t =
+    typename std::conditional<std::is_void<T>::value, void,
+                              typename std::add_lvalue_reference<T>::type>::type;
+
+//--------------------------------------------------------------------------------------------------
+//  Class:
+//      syn_ptr<T, AM>
+//
+//  Summary:
+//      This class implements a synthetic (fancy) pointer, which is parametrized in terms of the
+//      type it points to (T) and underlying addressing model (AM).  It uses the traits aliases
+//      defined above in conjunction with SFINAE to mimic a native pointer's conversion, casting,
+//      dereferencing, and arithmetical operations.
+//--------------------------------------------------------------------------------------------------
+//
 template<class T, class AM>
 class syn_ptr
 {
@@ -50,7 +66,7 @@ class syn_ptr
     using size_type         = typename AM::size_type;
     using element_type      = T;
     using value_type        = T;
-    using reference         = typename std::conditional<std::is_void<T>::value, void, typename std::add_lvalue_reference<T>::type>::type;
+    using reference         = get_type_or_void_t<T>;
     using pointer           = syn_ptr;
     using iterator_category = std::random_access_iterator_tag;
 

@@ -174,5 +174,3 @@ generate_test_data(size_t num_elements)
 
     return data;
 }
-
-

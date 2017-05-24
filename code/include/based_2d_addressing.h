@@ -127,8 +127,6 @@ based_2d_addressing_model<SM>::address() const noexcept
     return SM::segment_address(m_bits.m_segment) + (m_addr & offset_mask);
 }
 
-//------
-//
 template<typename SM> inline
 typename based_2d_addressing_model<SM>::size_type
 based_2d_addressing_model<SM>::offset() const noexcept

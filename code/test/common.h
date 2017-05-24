@@ -3,7 +3,7 @@
 //      common.h
 //
 //  Summary:
-//      Defines services that generate data for testing.
+//      Defines some simple common facilities for testing.
 //
 //  Copyright (c) 2017 Bob Steagall, KEWB Computing
 //==================================================================================================

@@ -3,7 +3,7 @@
 //      poc_allocator.h
 //
 //  Summary:
-//      Defines the poc_allocator<T> class template (relocatable heap experimental allocator).
+//      Defines the poc_allocator and syn_poc_allocator class templates.
 //
 //  Copyright (c) 2017 Bob Steagall, KEWB Computing
 //==================================================================================================
@@ -19,9 +19,9 @@
 //      poc_allocator<T, POCCA, POCMA, POCS, EQ>
 //
 //  Summary:
-//      This class template implements a standard-conforming allocator that uses the pointer
-//      interface and allocation strategy expressed by its second template parameter to allocate
-//      memory for representing objects of type T.
+//      This class template implements a standard-conforming allocator that returns ordinary
+//      pointers to type T, and which allows client code to specify its POCCA, POCMA, POCS, and
+//      comparison behavior as template paramaters.
 //--------------------------------------------------------------------------------------------------
 //
 template<class T, class POCCA, class POCMA, class POCS, bool EQ>
@@ -228,9 +228,9 @@ operator !=(const poc_allocator<T, POCCA, POCMA, POCS, EQ>&, const poc_allocator
 //      syn_poc_allocator<T, POCCA, POCMA, POCS, EQ>
 //
 //  Summary:
-//      This class template implements a standard-conforming allocator that uses the pointer
-//      interface and allocation strategy expressed by its second template parameter to allocate
-//      memory for representing objects of type T.
+//      This class template implements a standard-conforming allocator that returns synthetic
+//      pointers to type T, and which allows client code to specify its POCCA, POCMA, POCS, and
+//      comparison behavior as template paramaters.
 //--------------------------------------------------------------------------------------------------
 //
 template<class T, class POCCA, class POCMA, class POCS, bool EQ>
