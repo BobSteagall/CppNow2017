@@ -41,3 +41,6 @@ There are several very simple scripts in the ``code`` subdirectory that I used t
 
 The batch scripts rely on the naming conventions I use when building compilers.  If you would like to build your own compilers and install them on your system so that they don't step on each other, then take a look at my compiler build scripts, [gcc-builder](https://gitlab.com/BobSteagall/gcc-builder "A set of scripts to automate the process of building GCC on Linux") and [clang-builder](https://gitlab.com/BobSteagall/clang-builder "A set of scripts to automate the process of building Clang and LibC++ on Linux").
 
+## Seeing Conformance Issues
+
+The test are designed to compile and run regardless of the chosen compiler.  That means that code that fails to compile, crashes while running, or gives bad results is ``#ifdef``'d out.  By searching for the ``COMPILER(_CLANG|_GCC|_MS)`` macros, you can see which sections of code are affected by possible bugs or nonconformities.
