@@ -33,6 +33,8 @@ $ make
 $ ./alloc [args]
 ```
 
+To see how to run the program, invoke it with no arguments or with the ``-h`` argument.
+
 ## Running the Batch Scripts
 
 There are several very simple scripts in the ``code`` subdirectory that I used to do batch builds (``make_for_*.sh``) and batch runs (``poc_run_for*.sh`` and ``run_for_*.sh``) of the test program. These scripts were mostly for my convenience when generating the results I used in the presentation.
