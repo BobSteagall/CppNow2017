@@ -25,4 +25,6 @@ run_container_tests()
 
     run_container_map_tests();
     run_container_umap_tests();
+
+    printf("\n\n\n");
 }
