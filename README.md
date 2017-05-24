@@ -43,4 +43,4 @@ The batch scripts rely on the naming conventions I use when building compilers. 
 
 ## Seeing Conformance Issues
 
-The test are designed to compile and run regardless of the chosen compiler.  That means that code that fails to compile, crashes while running, or gives bad results is ``#ifdef``'d out.  By searching for the ``COMPILER(_CLANG|_GCC|_MS)`` macros, you can see which sections of code are affected by possible bugs or nonconformities.
+The test are designed to compile and run regardless of the chosen compiler.  That means that code that fails to compile, crashes while running, or gives bad results is ``#ifdef``'d out.  By searching for the ``COMPILER_CLANG``, ``COMPILER_GCC``, ``COMPILER_MS`` macros, you can see which sections of code are affected by possible bugs or nonconformities.
