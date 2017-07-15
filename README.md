@@ -9,7 +9,7 @@ The source code is contained in the ``code/include``, ``code/src``, and ``code/t
 The files in ``code/include`` and ``code/src`` observe the following naming conventions:
 * File names ending in ``_addressing.h/.cpp`` define _addressing models_;
 * File names ending in ``_storage.h/.cpp`` define _storage models_;
-* File names ending in ``_pointer.h`` define _pointer interfaces_ (there is only one pointer interface used in this project, and it is defined in ``pointer_interface.h``;
+* File names ending in ``_pointer.h`` define _pointer interfaces_ (there is only one pointer interface used in this project, and it is defined in ``pointer_interface.h``);
 * File names ending in ``_allocation_strategy.h/.cpp`` define _allocation strategies_; and,
 * File names ending in ``_allocator.h/.cpp`` define C++14-compatible allocator types.
 
