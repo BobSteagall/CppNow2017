@@ -24,14 +24,14 @@ void
 run_container_map_tests()
 {
     RUN_MAP_TESTS(wrapper_strategy);
-    RUN_MAP_TESTS(based_2d_strategy);
+    RUN_MAP_TESTS(based_2dxl_strategy);
 
 #ifndef COMPILER_MS
     RUN_MAP_RELOC_TESTS(based_2d_strategy); 
 #endif
 
 #if defined(COMPILER_MS) && (_MSC_VER > 1900)
-    RUN_MAP_RELOC_TESTS(based_2d_strategy);
+    RUN_MAP_RELOC_TESTS(based_2dxl_strategy);
 #endif
 
     //- Vary POCCA and POCMA, holding POCS as true_type.

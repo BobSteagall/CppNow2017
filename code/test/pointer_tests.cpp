@@ -11,9 +11,50 @@
 #include "pointer_sort_tests.h"
 #include "pointer_stable_sort_tests.h"
 
+void
+extra_test_1()
+{
+    using int_ptr  = int*; 
+    using void_ptr = void*;
+
+    void_ptr    u  = nullptr;
+//    int_ptr     t0 = u;      // disallow (implicit) conversion
+//    int_ptr     t1(u);       // disallow (explicit) construction
+
+    int_ptr     t2 = int_ptr(u);                // OK!
+    int_ptr     t3 = static_cast<int_ptr>(u);   // OK!
+}
+
+void
+extra_test_2()
+{
+    using int_ptr  = syn_ptr<int, based_2dxl_addressing_model<based_2dxl_storage_model>>;
+    using void_ptr = syn_ptr<void, based_2dxl_addressing_model<based_2dxl_storage_model>>;
+
+    void*       v = nullptr;
+//    int_ptr     tv0 = v;    // disallow (implicit) conversion
+//    int_ptr     tv1(v);     // disallow (explicit) construction
+
+    void_ptr    u = nullptr;
+//    int_ptr     t0 = u;     // disallow (implicit) conversion
+    int_ptr     t1(u);      // disallow (explicit) construction
+
+    int_ptr     t2 = int_ptr(u);                // OK!
+    int_ptr     t3 = static_cast<int_ptr>(u);   // OK!
+}
+
 #define RUN_COPY_TESTS(ST, DT)          run_pointer_copy_tests<ST,DT>(#ST, #DT)
 #define RUN_SORT_TESTS(ST, DT)          run_pointer_sort_tests<ST,DT>(#ST, #DT)
 #define RUN_STABLE_SORT_TESTS(ST, DT)   run_pointer_stable_sort_tests<ST,DT>(#ST, #DT)
+
+#if 1
+void
+run_pointer_tests()
+{
+    extra_test_2();
+}
+
+#else
 
 void
 run_pointer_tests()
@@ -146,3 +187,4 @@ run_pointer_tests()
 #endif
 #endif
 }
+#endif

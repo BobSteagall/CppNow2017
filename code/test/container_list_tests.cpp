@@ -24,8 +24,8 @@ void
 run_container_list_tests()
 {
     RUN_LIST_TESTS(wrapper_strategy);
-    RUN_LIST_TESTS(based_2d_strategy);
-    RUN_LIST_RELOC_TESTS(based_2d_strategy);
+    RUN_LIST_TESTS(based_2dxl_strategy);
+    RUN_LIST_RELOC_TESTS(based_2dxl_strategy);
 
     //- Vary POCCA and POCMA, holding POCS as true_type.
     //
