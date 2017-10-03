@@ -213,6 +213,9 @@ based_2dxl_addressing_model<SM>::assign_from(void const* p)
             }
         }
     }
+
+    m_segment = 0u;
+    m_offset  = pdata - static_cast<char const*>(nullptr);
 }
 
 //------

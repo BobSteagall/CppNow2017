@@ -18,21 +18,21 @@
 #include <iterator>
 
 template<class From, class To>
-using enable_if_convertible_t = 
+using enable_if_convertible_t =
     typename std::enable_if<std::is_convertible<From*, To*>::value, bool>::type;
 
 template<class From, class To>
-using enable_if_not_convertible_t = 
+using enable_if_not_convertible_t =
     typename std::enable_if<!std::is_convertible<From*, To*>::value, bool>::type;
 
 template<class T1, class T2>
 using enable_if_comparable_t =
     typename std::enable_if<std::is_convertible<T1*, T2 const*>::value ||
-                            std::is_convertible<T2*, T1 const*>::value, 
+                            std::is_convertible<T2*, T1 const*>::value,
                             bool>::type;
 
 template<class T, class U>
-using enable_if_non_void_t = 
+using enable_if_non_void_t =
     typename std::enable_if<!std::is_void<U>::value && std::is_same<T, U>::value, bool>::type;
 
 template<class T>
@@ -111,38 +111,38 @@ class syn_ptr
 
     //- De-referencing and indexing.
     //
-    template<class U = T, enable_if_non_void_t<T, U> = true> 
+    template<class U = T, enable_if_non_void_t<T, U> = true>
     U*  operator ->() const;
-    template<class U = T, enable_if_non_void_t<T, U> = true> 
+    template<class U = T, enable_if_non_void_t<T, U> = true>
     U&  operator  *() const;
-    template<class U = T, enable_if_non_void_t<T, U> = true> 
+    template<class U = T, enable_if_non_void_t<T, U> = true>
     U&  operator [](size_type n) const;
 
     //- Pointer arithmetic operators.
     //
-    template<class U = T, enable_if_non_void_t<T, U> = true> 
+    template<class U = T, enable_if_non_void_t<T, U> = true>
     difference_type operator -(const syn_ptr& p) const;
-    template<class U = T, enable_if_non_void_t<T, U> = true> 
+    template<class U = T, enable_if_non_void_t<T, U> = true>
     syn_ptr         operator -(difference_type n) const;
-    template<class U = T, enable_if_non_void_t<T, U> = true> 
+    template<class U = T, enable_if_non_void_t<T, U> = true>
     syn_ptr         operator +(difference_type n) const;
 
-    template<class U = T, enable_if_non_void_t<T, U> = true> 
+    template<class U = T, enable_if_non_void_t<T, U> = true>
     syn_ptr&        operator ++();
-    template<class U = T, enable_if_non_void_t<T, U> = true> 
+    template<class U = T, enable_if_non_void_t<T, U> = true>
     syn_ptr const   operator ++(int);
-    template<class U = T, enable_if_non_void_t<T, U> = true> 
+    template<class U = T, enable_if_non_void_t<T, U> = true>
     syn_ptr&        operator --();
-    template<class U = T, enable_if_non_void_t<T, U> = true> 
+    template<class U = T, enable_if_non_void_t<T, U> = true>
     syn_ptr const   operator --(int);
-    template<class U = T, enable_if_non_void_t<T, U> = true> 
+    template<class U = T, enable_if_non_void_t<T, U> = true>
     syn_ptr&        operator +=(difference_type n);
-    template<class U = T, enable_if_non_void_t<T, U> = true> 
+    template<class U = T, enable_if_non_void_t<T, U> = true>
     syn_ptr&        operator -=(difference_type n);
 
     //- Helper function required by pointer_traits<T>.
     //
-    template<class U = T, enable_if_non_void_t<T, U> = true> 
+    template<class U = T, enable_if_non_void_t<T, U> = true>
     static  syn_ptr pointer_to(U& e);
 
     //- Additional helper functions used to implement the comparison operators.
@@ -189,6 +189,7 @@ template<class T, class AM>
 template<class U, enable_if_convertible_t<U, T>> inline
 syn_ptr<T, AM>::syn_ptr(U* p)
 {
+    static_assert(!std::is_same<T, int>::value, "ctor 3");
     m_addrmodel.assign_from(p);
 }
 
@@ -196,7 +197,9 @@ template<class T, class AM>
 template<class U, enable_if_convertible_t<U, T>> inline
 syn_ptr<T, AM>::syn_ptr(syn_ptr<U, AM> const& src)
 :   m_addrmodel(src.m_addrmodel)
-{}
+{
+    static_assert(std::is_convertible<U*, T*>::value, "ctor 4");
+}
 
 //------
 //
@@ -258,15 +261,15 @@ syn_ptr<T, AM>::operator syn_ptr<U, AM>() const
 //------
 //
 template<class T, class AM>
-template<class U, enable_if_non_void_t<T, U>> 
+template<class U, enable_if_non_void_t<T, U>>
 inline U*
 syn_ptr<T, AM>::operator ->() const
 {
     return static_cast<U*>(m_addrmodel.address());
 }
 
-template<class T, class AM> 
-template<class U, enable_if_non_void_t<T, U>> 
+template<class T, class AM>
+template<class U, enable_if_non_void_t<T, U>>
 inline U&
 syn_ptr<T, AM>::operator *() const
 {
@@ -274,7 +277,7 @@ syn_ptr<T, AM>::operator *() const
 }
 
 template<class T, class AM>
-template<class U, enable_if_non_void_t<T, U>> 
+template<class U, enable_if_non_void_t<T, U>>
 inline U&
 syn_ptr<T, AM>::operator [](size_type n) const
 {
@@ -283,8 +286,8 @@ syn_ptr<T, AM>::operator [](size_type n) const
 
 //------
 //
-template<class T, class AM> 
-template<class U, enable_if_non_void_t<T, U>> 
+template<class T, class AM>
+template<class U, enable_if_non_void_t<T, U>>
 inline typename syn_ptr<T, AM>::difference_type
 syn_ptr<T, AM>::operator -(syn_ptr const& rhs) const
 {
@@ -295,7 +298,7 @@ syn_ptr<T, AM>::operator -(syn_ptr const& rhs) const
 }
 
 template<class T, class AM>
-template<class U, enable_if_non_void_t<T, U>> 
+template<class U, enable_if_non_void_t<T, U>>
 inline syn_ptr<T, AM>
 syn_ptr<T, AM>::operator -(difference_type n) const
 {
@@ -305,7 +308,7 @@ syn_ptr<T, AM>::operator -(difference_type n) const
 }
 
 template<class T, class AM>
-template<class U, enable_if_non_void_t<T, U>> 
+template<class U, enable_if_non_void_t<T, U>>
 inline syn_ptr<T, AM>
 syn_ptr<T, AM>::operator +(difference_type n) const
 {
@@ -315,7 +318,7 @@ syn_ptr<T, AM>::operator +(difference_type n) const
 }
 
 template<class T, class AM>
-template<class U, enable_if_non_void_t<T, U>> 
+template<class U, enable_if_non_void_t<T, U>>
 inline syn_ptr<T, AM>&
 syn_ptr<T, AM>::operator ++()
 {
@@ -324,7 +327,7 @@ syn_ptr<T, AM>::operator ++()
 }
 
 template<class T, class AM>
-template<class U, enable_if_non_void_t<T, U>> 
+template<class U, enable_if_non_void_t<T, U>>
 inline syn_ptr<T, AM> const
 syn_ptr<T, AM>::operator ++(int)
 {
@@ -334,7 +337,7 @@ syn_ptr<T, AM>::operator ++(int)
 }
 
 template<class T, class AM>
-template<class U, enable_if_non_void_t<T, U>> 
+template<class U, enable_if_non_void_t<T, U>>
 inline syn_ptr<T, AM>&
 syn_ptr<T, AM>::operator --()
 {
@@ -343,7 +346,7 @@ syn_ptr<T, AM>::operator --()
 }
 
 template<class T, class AM>
-template<class U, enable_if_non_void_t<T, U>> 
+template<class U, enable_if_non_void_t<T, U>>
 inline syn_ptr<T, AM> const
 syn_ptr<T, AM>::operator --(int)
 {
@@ -353,7 +356,7 @@ syn_ptr<T, AM>::operator --(int)
 }
 
 template<class T, class AM>
-template<class U, enable_if_non_void_t<T, U>> 
+template<class U, enable_if_non_void_t<T, U>>
 inline syn_ptr<T, AM>&
 syn_ptr<T, AM>::operator +=(difference_type n)
 {
@@ -362,7 +365,7 @@ syn_ptr<T, AM>::operator +=(difference_type n)
 }
 
 template<class T, class AM>
-template<class U, enable_if_non_void_t<T, U>> 
+template<class U, enable_if_non_void_t<T, U>>
 inline syn_ptr<T, AM>&
 syn_ptr<T, AM>::operator -=(difference_type n)
 {
@@ -442,7 +445,7 @@ syn_ptr<T, AM>::less_than(syn_ptr<U, AM> const& p) const
 }
 
 template<class T, class AM>
-template<class U, enable_if_non_void_t<T, U>> 
+template<class U, enable_if_non_void_t<T, U>>
 inline syn_ptr<T, AM>
 syn_ptr<T, AM>::pointer_to(U& e)
 {
